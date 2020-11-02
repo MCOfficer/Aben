@@ -76,11 +76,11 @@ outfitter "aben advanced"
 	"G-82 Station"
 	"P-72 Safeguard"
 
-# ----------------------------
-#   OVERRIDE SALES AES-OMNIS
-# ----------------------------
+# -------------------
+#   SALES AES-OMNIS
+# -------------------
 
-outfitter "experimental"
+outfitter "aben"
 	"E-18 Distributor"
 	"G-76 Plant"
 	"G-82 Station"

@@ -327,3 +327,11 @@ planet "Pesek"
 	description `The colonies sole purpose on this planet appears to be the research and development of the advanced technology they are given. With many flashes of light and booming sounds from off-site locations along the planets surface, the feel for the intensity of research is very intense.`
 	spaceport `The spaceport contains all of two landing pads, if it can even be called that, there is no area for pilots to gather and no shops in the local area, this is clearly meant only for supply deliveries to the colony.`
 	spaceport `A looped broadcast confirms that the facility is not open to visitors, there is nothing to be done here but wait and refuel.`
+
+# ------------------------------
+#   PLANETS OVERRIDE AES-OMNIS
+# ------------------------------
+
+planet "Plugins"
+	add outfitter "aben"
+	add shipyard "aben"
