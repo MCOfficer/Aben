@@ -75,14 +75,3 @@ outfitter "aben basic"
 outfitter "aben advanced"
 	"G-82 Station"
 	"P-72 Safeguard"
-
-# -------------------
-#   SALES AES-OMNIS
-# -------------------
-
-outfitter "aben"
-	"E-18 Distributor"
-	"G-76 Plant"
-	"G-82 Station"
-	"P-26 Screen"
-	"P-72 Safeguard"
