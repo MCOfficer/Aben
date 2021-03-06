@@ -176,4 +176,4 @@ mission "reveal omnis-aben"
 		event "reveal omnis-aben"
 
 event "reveal omnis-aben"
-	visit "Dzee dzee-Bon,da"
+	visit "Aben"
