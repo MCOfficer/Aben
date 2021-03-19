@@ -177,3 +177,22 @@ mission "reveal omnis-aben"
 
 event "reveal omnis-aben"
 	visit "Aben"
+
+mission "reveal aben content"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	to offer
+		has "omnis start"
+	on accept
+		event "reveal aben content"
+
+event "reveal aben content"
+	visit "Ahaw On,za"
+	visit "Dzee dzee-Bon,da"
+	visit "Ko,gok"
+	visit "M,ska gwe,Demoos"
+	visit "Pak.zin Skwa"
+	visit "Tso-nii"
