@@ -1,6 +1,4 @@
-# -----------
-#   SYSTEMS
-# -----------
+#	Outfits sorted by category
 
 outfit "P-26 Screen"
 	category "Systems"
@@ -26,10 +24,6 @@ outfit "P-72 Safeguard"
 	"shield heat" 1.15
 	description `A much larger spin on the P-26 Screen, which is much more powerful at the cost of an even more expensive running cost. Often utilized in the precautionary service of shielding entire districts as the mainline defense against possible alien incursion into the capital.`
 	description `For a very hefty size, this shield regenerator can shield you from much of what any single ship can throw at you. For extended or more dire conflicts however, it may not be worth relying on to save you from the oncoming onslaught.`
-
-# ---------
-#   POWER
-# ---------
 
 outfit "E-18 Distributor"
 	category "Power"
@@ -63,15 +57,20 @@ outfit "G-82 Station"
 	"heat generation" 34
 	description `The largest manufactured reactor by the Aben is the G-82 Station, designed to generate enough power to support a typical residential district in the capital on it's own. There are various locations where there are up to a half dozen of these Stations in a general proximity as a local supply for the city wide electrical grid. These locations are allowed up to three times the typical building allowance for P-26 Screens, as it doesn't need explaining why it's so important that these locations are adequately defended.`
 
-# ---------
-#   SALES
-# ---------
+#	Sales
+
+outfitter "aben advanced"
+	"G-82 Station"
+	"P-72 Safeguard"
 
 outfitter "aben basic"
 	"E-18 Distributor"
 	"G-76 Plant"
 	"P-26 Screen"
 
-outfitter "aben advanced"
+outfitter "aben"
+	"E-18 Distributor"
+	"G-76 Plant"
 	"G-82 Station"
+	"P-26 Screen"
 	"P-72 Safeguard"

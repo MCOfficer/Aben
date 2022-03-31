@@ -1,6 +1,53 @@
-# -------------
-#   INHABITED
-# -------------
+#	Unsorted planets to the top
+
+planet "Plugins"
+	add outfitter "aben"
+	add shipyard "aben"
+
+#	Systems followed by planets held within
+
+system "Ahaw On,za"
+	pos 137 -622
+	government Uninhabited
+	link "Dzee dzee-Bon,da"
+	link "Ko,gok"
+	link "Pak.zin Skwa"
+	asteroids "large metal" 21 7
+	minables "silicon" 50 3
+	minables "silver" 19 3
+	minables "uranium" 24 2
+	fleet "Unfettered Raid" 6000
+	object
+		sprite "star/g5"
+		period 10
+	object
+		sprite "planet/ice4"
+		distance 252
+		period 34
+	object
+		sprite "planet/luna"
+		distance 547
+		period 110
+	object
+		sprite "planet/neptune"
+		distance 1443
+		period 473
+		object
+			sprite "planet/dust1"
+			distance 223
+			period 16
+		object
+			sprite "planet/rock17"
+			distance 335
+			period 30
+		object
+			sprite "planet/lava0"
+			distance 433
+			period 44
+		object
+			sprite "planet/miranda"
+			distance 631
+			period 78
 
 system "Dzee dzee-Bon,da"
 	pos 130 -564
@@ -57,6 +104,13 @@ system "Dzee dzee-Bon,da"
 			distance 367
 			period 24
 
+planet "Nis"
+	landscape land/forest0
+	description `Eerily, there are no winged creatures amongst the skies and few land roaming animals. Those animals that do walk the land however are large, lumbering beasts that easily dwarf small buildings. The most dominant species is noticeably creatures resembling old earth humans, they boast a very large build and move cautiously in groups.`
+	description `These humanesque creatures appear to have received aid as their technology is far beyond what they might have achieved otherwise. They prove quite formidable in the field of infrastructural and agricultural planning, perhaps they have been aided in that respect also, the various towns and villages appear to have stood for many centuries.`
+	spaceport `The spaceport, located in the very center of a deep crater, shoots out of the ground like a glimmering silver spire. Surrounding the spire are densely populated residential and industrial sectors. The lower airspace of the city and lower levels of the spire are utilized for use by some form of flight capable vehicle, presumably for transit for the wealthy.`
+	spaceport `It appears as though only the very top regions of the spire are intended for foreigners to land, however there are docking bays located at various points around each docking level. Apparently only the most fortunate of Aben ever make it to the top of the spire, it's regarded as the highest honor to be of the few individuals to greet visiting species.`
+
 system "Ko,gok"
 	pos 169 -552
 	government Aben
@@ -84,7 +138,7 @@ system "Ko,gok"
 			sprite "planet/desert4"
 			distance 132
 			period 16
-	object Pesek
+	object "Pesek"
 		sprite "planet/rock16"
 		distance 647
 		period 37
@@ -104,53 +158,13 @@ system "Ko,gok"
 			sprite "planet/rock3"
 			distance 519
 			period 38
-	
-# ---------------
-#   UNINHABITED
-# ---------------
 
-system "Ahaw On,za"
-	pos 137 -622
-	government Uninhabited
-	link "Dzee dzee-Bon,da"
-	link "Ko,gok"
-	link "Pak.zin Skwa"
-	asteroids "large metal" 21 7
-	minables "silicon" 50 3
-	minables "silver" 19 3
-	minables "uranium" 24 2
-	fleet "Unfettered Raid" 6000
-	object
-		sprite "star/g5"
-		period 10
-	object
-		sprite "planet/ice4"
-		distance 252
-		period 34
-	object
-		sprite "planet/luna"
-		distance 547
-		period 110
-	object
-		sprite "planet/neptune"
-		distance 1443
-		period 473
-		object
-			sprite "planet/dust1"
-			distance 223
-			period 16
-		object
-			sprite "planet/rock17"
-			distance 335
-			period 30
-		object
-			sprite "planet/lava0"
-			distance 433
-			period 44
-		object
-			sprite "planet/miranda"
-			distance 631
-			period 78
+planet "Pesek"
+	landscape land/mountain2
+	description `A lifeless rock with a very thin atmosphere, slightly smaller than the Aben homeworld Nis. Somehow the Aben have managed to travel and colonise here, how they hold the power of spaceflight at their stage of evolution is astounding, even with the advanced technology they have been provided.`
+	description `The colonies sole purpose on this planet appears to be the research and development of the advanced technology they are given. With many flashes of light and booming sounds from off-site locations along the planets surface, the feel for the intensity of research is very intense.`
+	spaceport `The spaceport contains all of two landing pads, if it can even be called that, there is no area for pilots to gather and no shops in the local area, this is clearly meant only for supply deliveries to the colony.`
+	spaceport `A looped broadcast confirms that the facility is not open to visitors, there is nothing to be done here but wait and refuel.`
 			
 system "M,ska gwe,Demoos"
 	pos 127 -516
@@ -310,20 +324,124 @@ system "Tso-nii"
 			distance 354
 			period 21
 
-# -----------
-#   PLANETS
-# -----------
+#	Omnis support
 
-planet "Nis"
-	landscape land/forest0
-	description `Eerily, there are no winged creatures amongst the skies and few land roaming animals. Those animals that do walk the land however are large, lumbering beasts that easily dwarf small buildings. The most dominant species is noticeably creatures resembling old earth humans, they boast a very large build and move cautiously in groups.`
-	description `These humanesque creatures appear to have received aid as their technology is far beyond what they might have achieved otherwise. They prove quite formidable in the field of infrastructural and agricultural planning, perhaps they have been aided in that respect also, the various towns and villages appear to have stood for many centuries.`
-	spaceport `The spaceport, located in the very center of a deep crater, shoots out of the ground like a glimmering silver spire. Surrounding the spire are densely populated residential and industrial sectors. The lower airspace of the city and lower levels of the spire are utilized for use by some form of flight capable vehicle, presumably for transit for the wealthy.`
-	spaceport `It appears as though only the very top regions of the spire are intended for foreigners to land, however there are docking bays located at various points around each docking level. Apparently only the most fortunate of Aben ever make it to the top of the spire, it's regarded as the highest honor to be of the few individuals to greet visiting species.`
-	
-planet "Pesek"
-	landscape land/mountain2
-	description `A lifeless rock with a very thin atmosphere, slightly smaller than the Aben homeworld Nis. Somehow the Aben have managed to travel and colonise here, how they hold the power of spaceflight at their stage of evolution is astounding, even with the advanced technology they have been provided.`
-	description `The colonies sole purpose on this planet appears to be the research and development of the advanced technology they are given. With many flashes of light and booming sounds from off-site locations along the planets surface, the feel for the intensity of research is very intense.`
-	spaceport `The spaceport contains all of two landing pads, if it can even be called that, there is no area for pilots to gather and no shops in the local area, this is clearly meant only for supply deliveries to the colony.`
-	spaceport `A looped broadcast confirms that the facility is not open to visitors, there is nothing to be done here but wait and refuel.`
+system "Aben"
+	pos -50 -10050
+	government "cheat"
+	object "aben gateway"
+		sprite "sprite/wisp_green"
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object
+		sprite "sprite/category_transport"
+		distance 1200
+	object
+		sprite "sprite/category_light_freighter"
+		distance 1200
+		offset 40
+	object
+		sprite "sprite/category_heavy_freighter"
+		distance 1200
+		offset 80
+	object
+		sprite "sprite/category_interceptor"
+		distance 1200
+		offset 120
+	object
+		sprite "sprite/category_light_warship"
+		distance 1200
+		offset 160
+	object
+		sprite "sprite/category_medium_warship"
+		distance 1200
+		offset 200
+	object
+		sprite "sprite/category_heavy_warship"
+		distance 1200
+		offset 240
+	object
+		sprite "sprite/category_fighter"
+		distance 1200
+		offset 280
+	object
+		sprite "sprite/category_drone"
+		distance 1200
+		offset 320
+
+planet "Aben"
+	description ``
+	landscape landscape/station6
+	spaceport ``
+	outfitter "aben"
+	shipyard "aben"
+	bribe 0
