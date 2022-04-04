@@ -329,8 +329,6 @@ system "Tso-nii"
 system "Aben"
 	pos -50 -10050
 	government "cheat"
-	object "aben gateway"
-		sprite "sprite/wisp_green"
 	object "Aben"
 		sprite planet/ringworld
 		distance 812
