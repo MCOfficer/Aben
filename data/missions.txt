@@ -404,20 +404,6 @@ mission "aben mining uranium large"
 
 #	Omnis Support
 
-mission "spawn aben gateway"
-	invisible
-	landing
-	to offer
-		has "omnis marker: offered"
-	on accept
-		event "spawn aben gateway"
-
-event "spawn aben gateway"
-	system "Dzee dzee-Bon,da"
-		add object "aben gateway"
-			sprite "planet/wisp"
-			distance 4000
-
 mission "reveal omnis-aben"
 	invisible
 	landing
@@ -428,7 +414,7 @@ mission "reveal omnis-aben"
 		event "reveal omnis-aben"
 
 event "reveal omnis-aben"
-	visit "Aben"
+	visit "AES Aben"
 
 mission "reveal aben content"
 	invisible

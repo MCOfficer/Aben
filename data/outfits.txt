@@ -68,7 +68,7 @@ outfitter "aben basic"
 	"G-76 Plant"
 	"P-26 Screen"
 
-outfitter "aben"
+outfitter "AES Aben"
 	"E-18 Distributor"
 	"G-76 Plant"
 	"G-82 Station"

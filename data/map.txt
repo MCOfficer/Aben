@@ -1,9 +1,3 @@
-#	Unsorted planets to the top
-
-planet "Plugins"
-	add outfitter "aben"
-	add shipyard "aben"
-
 #	Systems followed by planets held within
 
 system "Ahaw On,za"
@@ -326,120 +320,90 @@ system "Tso-nii"
 
 #	Omnis support
 
-system "Aben"
-	pos -50 -10050
+system "AES Aben"
+	pos 70 -10070
 	government "cheat"
-	object "Aben"
-		sprite planet/ringworld
-		distance 812
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Aben"
+	object "AES Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 340
-	object
-		sprite "sprite/category_transport"
-		distance 1200
-	object
-		sprite "sprite/category_light_freighter"
-		distance 1200
-		offset 40
-	object
-		sprite "sprite/category_heavy_freighter"
-		distance 1200
-		offset 80
-	object
-		sprite "sprite/category_interceptor"
-		distance 1200
-		offset 120
-	object
-		sprite "sprite/category_light_warship"
-		distance 1200
-		offset 160
-	object
-		sprite "sprite/category_medium_warship"
-		distance 1200
-		offset 200
-	object
-		sprite "sprite/category_heavy_warship"
-		distance 1200
-		offset 240
-	object
-		sprite "sprite/category_fighter"
-		distance 1200
-		offset 280
-	object
-		sprite "sprite/category_drone"
-		distance 1200
-		offset 320
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 360
 
-planet "Aben"
+planet "AES Aben"
 	description ``
 	landscape landscape/station6
 	spaceport ``
-	outfitter "aben"
-	shipyard "aben"
+	outfitter "AES Aben"
+	shipyard "AES Aben"
 	bribe 0
+
+planet "Plugins"
+	add outfitter "AES aben"
+	add shipyard "AES aben"
