@@ -401,36 +401,3 @@ mission "aben mining uranium large"
 		outfit "Uranium" -90
 		payment 1600000
 		"trust aben" ++
-
-#	Omnis Support
-
-mission "reveal omnis-aben"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal omnis-aben"
-
-event "reveal omnis-aben"
-	visit "AES Aben"
-
-mission "reveal aben content"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	to offer
-		has "omnis start"
-	on accept
-		event "reveal aben content"
-
-event "reveal aben content"
-	visit "Ahaw On,za"
-	visit "Dzee dzee-Bon,da"
-	visit "Ko,gok"
-	visit "M,ska gwe,Demoos"
-	visit "Pak.zin Skwa"
-	visit "Tso-nii"

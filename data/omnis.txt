@@ -1,0 +1,131 @@
+#	Systems followed by planets held within
+
+system "AES Aben"
+	pos 70 -10070
+	government "cheat"
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "AES Aben"
+		sprite planet/ringworld
+		distance 812
+		offset 360
+
+planet "AES Aben"
+	description ``
+	landscape landscape/station6
+	spaceport ``
+	outfitter "AES Aben"
+	shipyard "AES Aben"
+	bribe 0
+
+planet "Plugins"
+	add outfitter "AES Aben"
+	add shipyard "AES Aben"
+
+#	Reveal missions
+
+mission "reveal omnis-aben"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis-aben"
+
+event "reveal omnis-aben"
+	visit "AES Aben"
+
+mission "reveal aben content"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	to offer
+		has "omnis start"
+	on accept
+		event "reveal aben content"
+
+event "reveal aben content"
+	visit "Ahaw On,za"
+	visit "Dzee dzee-Bon,da"
+	visit "Ko,gok"
+	visit "M,ska gwe,Demoos"
+	visit "Pak.zin Skwa"
+	visit "Tso-nii"
+
+#	Sales
+
+outfitter "AES Aben"
+	"E-18 Distributor"
+	"G-76 Plant"
+	"G-82 Station"
+	"P-26 Screen"
+	"P-72 Safeguard"
