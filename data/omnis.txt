@@ -84,6 +84,10 @@ planet "AES Aben"
 	shipyard "AES Aben"
 	bribe 0
 
+planet "Everything"
+	add outfitter "AES Aben"
+	add shipyard "AES Aben"
+
 planet "Plugins"
 	add outfitter "AES Aben"
 	add shipyard "AES Aben"
