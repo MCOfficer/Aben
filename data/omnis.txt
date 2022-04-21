@@ -1,99 +1,109 @@
-#	Systems followed by planets held within
+#	Override
 
-system "AES Aben"
-	pos 70 -10070
+planet "Everything"
+	add outfitter "Aben"
+	add shipyard "Aben"
+planet "Plugins"
+	add outfitter "Aben"
+	add shipyard "Aben"
+
+#	Species
+
+system "Aben"
+	pos 65 -10282
 	government "cheat"
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 340
-	object "AES Aben"
+	object "Aben"
 		sprite planet/ringworld
 		distance 812
 		offset 360
-
-planet "AES Aben"
+planet "Aben"
 	description ``
 	landscape landscape/station6
 	spaceport ``
-	outfitter "AES Aben"
-	shipyard "AES Aben"
+	shipyard "omnis"
+	outfitter "omnis"
+	shipyard "Aben"
+	outfitter "Aben"
 	bribe 0
+planet "aben gateway"
 
-planet "Everything"
-	add outfitter "AES Aben"
-	add shipyard "AES Aben"
+#	Mapping
 
-planet "Plugins"
-	add outfitter "AES Aben"
-	add shipyard "AES Aben"
-
-#	Reveal missions
-
+mission "aben gateway"
+	invisible
+	landing
+	to offer
+		"omnis marker" == 1
+	on offer
+		event "aben gateway"
 mission "reveal omnis-aben"
 	invisible
 	landing
@@ -102,21 +112,31 @@ mission "reveal omnis-aben"
 		government "cheat"
 	on accept
 		event "reveal omnis-aben"
-
-event "reveal omnis-aben"
-	visit "AES Aben"
-
 mission "reveal aben content"
 	invisible
 	landing
 	repeat
 	source
 		government "cheat"
-	to offer
-		has "omnis start"
 	on accept
 		event "reveal aben content"
 
+event "aben gateway"
+	system "Aben"
+		add object "aben gateway"
+			sprite "sprite/wisp_green"
+		add object
+			sprite "sprite/faction_aben"
+			distance 150
+			offset 180
+	system "Dzee dzee-Bon,da"
+		add object "aben gateway"
+			sprite "sprite/wisp_green"
+		add object
+			sprite "sprite/gateway_omnis"
+			distance 150
+event "reveal omnis-aben"
+	visit "Aben"
 event "reveal aben content"
 	visit "Ahaw On,za"
 	visit "Dzee dzee-Bon,da"
@@ -127,7 +147,7 @@ event "reveal aben content"
 
 #	Sales
 
-outfitter "AES Aben"
+outfitter "Aben"
 	"E-18 Distributor"
 	"G-76 Plant"
 	"G-82 Station"
