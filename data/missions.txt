@@ -82,7 +82,6 @@ mission "aben unlock advanced"
 		planet "Nis"
 	on offer
 		event "aben unlock advanced"
-
 event "aben unlock advanced"
 	planet "Nis"
 		outfitter "aben advanced"
@@ -98,7 +97,6 @@ mission "aben unlock basic"
 	on offer
 		set "license: Aben Technology"
 		event "aben unlock basic"
-
 event "aben unlock basic"
 	planet "Nis"
 		outfitter "aben basic"
@@ -146,7 +144,6 @@ mission "aben mining aluminum small"
 		outfit "Aluminum" -60
 		payment 157500
 		"trust aben" ++
-		
 mission "aben mining aluminum large"
 	name `Harvest Aluminum`
 	description `The Aben are offering <payment> in exchange for 90 tons of aluminum.`
@@ -180,7 +177,6 @@ mission "aben mining copper small"
 		outfit "Copper" -60
 		payment 262500
 		"trust aben" ++
-
 mission "aben mining copper large"
 	name `Harvest Copper`
 	description `The Aben are offering <payment> in exchange for 90 tons of copper.`
@@ -214,7 +210,6 @@ mission "aben mining iron small"
 		outfit "Iron" -60
 		payment 105000
 		"trust aben" ++
-
 mission "aben mining iron large"
 	name `Harvest Iron`
 	description `The Aben are offering <payment> in exchange for 90 tons of iron.`
@@ -248,7 +243,6 @@ mission "aben mining lead small"
 		outfit "Lead" -60
 		payment 90000
 		"trust aben" ++
-
 mission "aben mining lead large"
 	name `Harvest Lead`
 	description `The Aben are offering <payment> in exchange for 90 tons of lead.`
@@ -282,7 +276,6 @@ mission "aben mining platinum small"
 		outfit "Platinum" -60
 		payment 1500000
 		"trust aben" ++
-
 mission "aben mining platinum large"
 	name `Harvest Platinum`
 	description `The Aben are offering <payment> in exchange for 90 tons of platinum.`
@@ -316,7 +309,6 @@ mission "aben mining silicon small"
 		outfit "Silicon" -60
 		payment 60000
 		"trust aben" ++
-
 mission "aben mining silicon large"
 	name `Harvest Silicon`
 	description `The Aben are offering <payment> in exchange for 90 tons of silicon.`
@@ -350,7 +342,6 @@ mission "aben mining silver small"
 		outfit "Silver" -60
 		payment 450000
 		"trust aben" ++
-
 mission "aben mining silver large"
 	name `Harvest Silver`
 	description `The Aben are offering <payment> in exchange for 90 tons of silver.`
@@ -384,7 +375,6 @@ mission "aben mining uranium small"
 		outfit "Uranium" -60
 		payment 750000
 		"trust aben" ++
-
 mission "aben mining uranium large"
 	name `Harvest Uranium`
 	description `The Aben are offering <payment> in exchange for 90 tons of uranium.`

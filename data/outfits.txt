@@ -1,5 +1,3 @@
-#	Outfits sorted by category
-
 outfit "P-26 Screen"
 	category "Systems"
 		licenses
@@ -11,7 +9,6 @@ outfit "P-26 Screen"
 	"shield energy" .39
 	"shield heat" .06
 	description `A sophisticated piece of equipment which is utilized for protecting the Aben capital, this particular regenerator is put to use by shielding individual buildings, particularly large or more crucial buildings are allowed additional shielding regenerators. This small generator is used in conjunction with a much larger version, roughly ten times larger, which is capable of encompassing entire districts.`
-	
 outfit "P-72 Safeguard"
 	category "Systems"
 		licenses
@@ -24,7 +21,6 @@ outfit "P-72 Safeguard"
 	"shield heat" 1.15
 	description `A much larger spin on the P-26 Screen, which is much more powerful at the cost of an even more expensive running cost. Often utilized in the precautionary service of shielding entire districts as the mainline defense against possible alien incursion into the capital.`
 	description `For a very hefty size, this shield regenerator can shield you from much of what any single ship can throw at you. For extended or more dire conflicts however, it may not be worth relying on to save you from the oncoming onslaught.`
-
 outfit "E-18 Distributor"
 	category "Power"
 		licenses
@@ -34,7 +30,6 @@ outfit "E-18 Distributor"
 	"outfit space" -9
 	"energy capacity" 1825
 	description `One of the Abens more accomplished works, an incredibly dense battery array that outclasses batteries of human design by almost double the capacity. All districts run off of the city electrical grid as a primary supply and have additional Distributors as a secondary supply in the event of crisis, there are multiple failsafes to maintain working order throughout the capital in any event.`
-	
 outfit "G-76 Plant"
 	category "Power"
 		licenses
@@ -45,7 +40,6 @@ outfit "G-76 Plant"
 	"energy generation" 6.35
 	"heat generation" 14
 	description `A relatively feeble reactor used to complement the larger G-82 Station in any scenario. Often employed in pairs throughout the capital so as to take the burden off of the various E-18 Distributors in case of emergency, the output from each of these reactors are connected both to the electrical grid and the nearby district.`
-
 outfit "G-82 Station"
 	category "Power"
 		licenses
@@ -56,14 +50,3 @@ outfit "G-82 Station"
 	"energy generation" 18.5
 	"heat generation" 34
 	description `The largest manufactured reactor by the Aben is the G-82 Station, designed to generate enough power to support a typical residential district in the capital on it's own. There are various locations where there are up to a half dozen of these Stations in a general proximity as a local supply for the city wide electrical grid. These locations are allowed up to three times the typical building allowance for P-26 Screens, as it doesn't need explaining why it's so important that these locations are adequately defended.`
-
-#	Sales
-
-outfitter "aben advanced"
-	"G-82 Station"
-	"P-72 Safeguard"
-
-outfitter "aben basic"
-	"E-18 Distributor"
-	"G-76 Plant"
-	"P-26 Screen"
