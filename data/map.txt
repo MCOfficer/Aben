@@ -54,6 +54,16 @@ system "Dzee dzee-Bon,da"
 	minables "aluminum" 1 3
 	minables "copper" 3 3
 	minables "lead" 9 3
+	trade Food 378
+	trade Clothing 212
+	trade Metal 390
+	trade Plastic 254
+	trade Equipment 521
+	trade Medical 445
+	trade Industrial 735
+	trade Electronics 892
+	trade "Heavy Metals" 811
+	trade "Luxury Goods" 1031
 	fleet "Unfettered Raid" 6000
 	object
 		sprite "star/f5"
@@ -109,6 +119,16 @@ system "Ko,gok"
 	minables "iron" 1 2
 	minables "lead" 1 2
 	minables "platinum" 4 3
+	trade Food 568
+	trade Clothing 224
+	trade Metal 410
+	trade Plastic 311
+	trade Equipment 561
+	trade Medical 515
+	trade Industrial 759
+	trade Electronics 922
+	trade "Heavy Metals" 811
+	trade "Luxury Goods" 1031
 	fleet "Unfettered Raid" 9000
 	object
 		sprite "star/g5"
