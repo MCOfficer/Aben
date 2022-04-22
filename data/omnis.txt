@@ -1,5 +1,7 @@
 #	Override
 
+system "Hai"
+	add link "Aben"
 planet "Everything"
 	add outfitter "Aben"
 	add shipyard "Aben"
@@ -12,6 +14,7 @@ planet "Plugins"
 system "Aben"
 	pos 65 -10282
 	government "cheat"
+	link "Hai"
 	object "Aben"
 		sprite planet/ringworld
 		distance 812
