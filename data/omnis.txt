@@ -104,23 +104,6 @@ mission "aben gateway"
 		"omnis marker" == 1
 	on offer
 		event "aben gateway"
-mission "reveal omnis-aben"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal omnis-aben"
-mission "reveal aben content"
-	invisible
-	landing
-	repeat
-	source
-		government "cheat"
-	on accept
-		event "reveal aben content"
-
 event "aben gateway"
 	system "Aben"
 		add object "aben gateway"
@@ -135,8 +118,26 @@ event "aben gateway"
 		add object
 			sprite "sprite/gateway_omnis"
 			distance 150
+
+mission "reveal omnis-aben"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis-aben"
 event "reveal omnis-aben"
 	visit "Aben"
+
+mission "reveal aben content"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal aben content"
 event "reveal aben content"
 	visit "Ahaw On,za"
 	visit "Dzee dzee-Bon,da"
