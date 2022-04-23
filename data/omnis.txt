@@ -1,6 +1,7 @@
 #	Override
 
 system "Hai"
+	pos -13 -10253
 	add link "Aben"
 planet "Everything"
 	add outfitter "Aben"
