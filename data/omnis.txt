@@ -1,4 +1,6 @@
+#		-	-	-	-	-	-	-	-	-	-
 #	Override
+#		-	-	-	-	-	-	-	-	-	-
 
 system "Hai"
 	pos -13 -10253
@@ -10,7 +12,9 @@ planet "Plugins"
 	add outfitter "Aben"
 	add shipyard "Aben"
 
-#	Species
+#		-	-	-	-	-	-	-	-	-	-
+#	Systems
+#		-	-	-	-	-	-	-	-	-	-
 
 system "Aben"
 	pos 65 -10282
@@ -99,7 +103,9 @@ planet "Aben"
 	bribe 0
 planet "aben gateway"
 
+#		-	-	-	-	-	-	-	-	-	-
 #	Mapping
+#		-	-	-	-	-	-	-	-	-	-
 
 mission "aben gateway"
 	invisible
@@ -150,7 +156,9 @@ event "reveal aben content"
 	visit "Pak.zin Skwa"
 	visit "Tso-nii"
 
+#		-	-	-	-	-	-	-	-	-	-
 #	Sales
+#		-	-	-	-	-	-	-	-	-	-
 
 outfitter "Aben"
 	"E-18 Distributor"
