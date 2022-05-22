@@ -155,14 +155,3 @@ event "reveal aben content"
 	visit "M,ska gwe,Demoos"
 	visit "Pak.zin Skwa"
 	visit "Tso-nii"
-
-#		-	-	-	-	-	-	-	-	-	-
-#	Sales
-#		-	-	-	-	-	-	-	-	-	-
-
-outfitter "Aben"
-	"E-18 Distributor"
-	"G-76 Plant"
-	"G-82 Station"
-	"P-26 Screen"
-	"P-72 Safeguard"
