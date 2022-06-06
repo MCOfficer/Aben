@@ -39,7 +39,7 @@ mission "aben first contact"
 			choice
 				`	"What do you mean travelers? You've met us before?"`
 				`	"Well I could see what I could find for you on my travels."`
-					goto register
+					decline
 			`	"Yes, many cycles ago we were visited by your green skinned brethren; they frequently brought us what we desired so that we may finance their campaign, of which they did not share with us."`
 			choice
 				`	"You shouldn't trade with the Alphas! They betrayed us to control us, we barely fought them off!"`

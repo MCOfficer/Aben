@@ -115,6 +115,8 @@ outfitter "Aben"
 	"E-18 Distributor"
 	"G-76 Plant"
 	"G-82 Station"
+shipyard "Aben"
+	""
 
 #		-	-	-	-	-	-	-	-	-	-
 #	Mapping
