@@ -102,6 +102,7 @@ planet "Aben"
 	outfitter "Aben"
 	bribe 0
 planet "aben gateway"
+	attributes "requires: Omnis"
 
 #		-	-	-	-	-	-	-	-	-	-
 #	Sales
