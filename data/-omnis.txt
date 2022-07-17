@@ -2,9 +2,9 @@
 #	Override
 #		-	-	-	-	-	-	-	-	-	-
 
-system "Hai"
+system "Hai "
 	pos -13 -10253
-	add link "Aben"
+	add link "Aben "
 planet "Everything"
 	add outfitter "Aben"
 	add shipyard "Aben"
@@ -16,83 +16,83 @@ planet "Plugins"
 #	Systems
 #		-	-	-	-	-	-	-	-	-	-
 
-system "Aben"
+system "Aben "
 	pos 65 -10282
 	government "cheat"
-	link "Hai"
-	object "Aben"
+	link "Hai "
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 20
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 40
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 60
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 80
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 100
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 120
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 140
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 160
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 180
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 200
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 220
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 240
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 260
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 280
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 300
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 320
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 340
-	object "Aben"
+	object "Aben "
 		sprite planet/ringworld
 		distance 812
 		offset 360
-planet "Aben"
+planet "Aben "
 	description ``
 	landscape landscape/station6
 	spaceport ``
@@ -154,7 +154,7 @@ mission "reveal omnis-aben"
 	on accept
 		event "reveal omnis-aben"
 event "reveal omnis-aben"
-	visit "Aben"
+	visit "Aben "
 
 mission "reveal aben content"
 	invisible
