@@ -1,0 +1,10 @@
+outfitter "Aben"
+#		Sy
+	"P-26 Screen"
+	"P-72 Safeguard"
+#		Po
+	"E-18 Distributor"
+	"G-76 Plant"
+	"G-82 Station"
+shipyard "Aben"
+	""
