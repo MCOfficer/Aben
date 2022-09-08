@@ -1,9 +1,0 @@
-system "Hai "
-	pos -13 -10253
-	add link "Aben "
-planet "Everything"
-	add shipyard "Aben"
-	add outfitter "Aben"
-planet "Plugins"
-	add shipyard "Aben"
-	add outfitter "Aben"
