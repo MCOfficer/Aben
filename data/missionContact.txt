@@ -5,9 +5,9 @@ mission "aben first contact"
 		planet "Nis"
 	on offer
 		conversation
-			`On the descent down into the crater, the great shimmering spire at the center of it all casts an intense glare in all directions. The beautiful sight of the city surrounding the spire puts you in awe, the buildings are all well maintained, with ease of access by air, or ground. The swarming layers of hover vehicles above it all is incredible, they must run autonomously as they all traverse the airspace fluidly and with very little room for error.`
-			`	The only active comms channel only offers repeating instructions on where to land depending on what classification you qualify, 14A for visiting parties. Upon landing your ship within the hangar, a party of four approach your ship, what appears at first glance to be naked human men. On closer inspection it's clear that these humanoids bear no obvious reproductive organs, and a flat stretch of skin where a nose would normally sit, additionally, none of these humanoids have any hair across their bodies.`
-			`	As they draw nearer you notice that the two adjacent to the center individual bear an unusual build, it seems they are wearing body armor designed to blend in with the others. The last appears to be female, or at least a separate breed of the species that is very slim, at least a head taller than the others and the ears stretch to a point, much like a mythical race from old earth legends. She holds an electronic device likely for keeping a transcript of the conversation, "Wonderful day isn't it sir, or ma'am of course." the spokesperson opens with, he sounds almost cautious when pronouncing.`
+			`On the descent down into the crater, the great shimmering spire at the center of it all casts an intense glare in all directions. The beautiful sight of the city surrounding the spire puts you in awe, the buildings are all well maintained, with ease of access by air, or ground. The swarming layers of hover vehicles above it all are incredible, they must run autonomously as they all traverse the airspace fluidly and with very little room for error.`
+			`	The only active comms channel only offers repeating instructions on where to land depending on what classification you qualify, 14A for visiting parties. Upon landing your ship within the hangar, a party of four approach your ship, what appears at first glance to be naked human men. On closer inspection, it's clear that these humanoids bear no obvious reproductive organs, and a flat stretch of skin where a nose would normally sit, additionally, none of these humanoids have any hair across their bodies.`
+			`	As they draw nearer you notice that the two adjacent to the center individual bear an unusual build, it seems they are wearing body armor designed to blend in with the others. The last appears to be female, or at least a separate breed of the species that is very slim, at least a head taller than the others, and the ears stretch to a point, much like a mythical race from old earth legends. She holds an electronic device likely for keeping a transcript of the conversation, "Wonderful day isn't it sir, or ma'am of course." the spokesperson opens with, he sounds almost cautious when pronouncing.`
 			choice
 				`	"You know how to speak to me?"`
 				`	"How are we understanding each other"`
@@ -16,12 +16,12 @@ mission "aben first contact"
 				`	"What do you mean travelers? You've met us before?"`
 				`	"Well I could see what I could find for you on my travels."`
 					decline
-			`	"Yes, many cycles ago we were visited by your green skinned brethren; they frequently brought us what we desired so that we may finance their campaign, of which they did not share with us."`
+			`	"Yes, many cycles ago we were visited by your green-skinned brethren; they frequently brought us what we desired so that we may finance their campaign, of which they did not share with us."`
 			choice
 				`	"You shouldn't trade with the Alphas! They betrayed us to control us, we barely fought them off!"`
 				`	"The Alphas are dangerous and you shouldn't trust them."`
 			`	"I apologize greatly for distressing you; but we had no way of knowing, any information about your kind they brought us had no mention of any recent war between the skins." he says, surprisingly sympathetic for you. He further explains, "They brought us much technology; more than we had hoped from them and we made discoveries far beyond what we had imagined."`
-			`	"We apologize greatly for placing your people in such danger, unfortunately we have no information about their whereabouts, for they arrived using technology that they explicitly refused to sell. They have long since disappeared and now provide us nothing, we have reached heights we previously thought impossible because of our partnership with the green skinned humans. If you are still willing, we would partner with you and help you, if you help us."`
+			`	"We apologize greatly for placing your people in such danger, unfortunately, we have no information about their whereabouts, for they arrived using technology that they explicitly refused to sell. They have long since disappeared and now provide us nothing, we have reached heights we previously thought impossible because of our partnership with the green-skinned humans. If you are still willing, we would partner with you and help you, if you help us."`
 			choice
 				`	"I can see what I can bring back here."`
 					accept
