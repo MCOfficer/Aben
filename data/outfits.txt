@@ -24,7 +24,7 @@ outfit "P-72 Safeguard"
 	"shield energy" 6.4
 	"shield heat" 1.15
 	description `A much larger spin on the P-26 Screen, which is much more powerful at the cost of an even more expensive running cost. Often utilized in the precautionary service of shielding entire districts as the mainline defense against possible alien incursion into the capital.`
-	description `For a very hefty size, this shield regenerator can shield you from much of what any single ship can throw at you. For extended or more dire conflicts however, it may not be worth relying on to save you from the oncoming onslaught.`
+	description `For a very hefty size, this shield regenerator can shield you from much of what any single ship can throw at you. For extended or more dire conflicts, however, it may not be worth relying on to save you from the oncoming onslaught.`
 
 #	Power
 
