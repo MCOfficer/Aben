@@ -1,4 +1,6 @@
-mission "Wanderers: Alpha Surveillance D (patch)"
+#	Adds enter dialogs for Aben systems during Alpha Surveillance
+
+mission "alphaSurveillanceDPatch"
 	invisible
 	source "Alta Hai"
 	destination "Avalon"
