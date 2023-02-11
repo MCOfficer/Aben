@@ -1,10 +1,7 @@
 #	Introduction
-
 mission "abenFirstContact"
 	invisible
 	landing
-	source
-		planet "Nis"
 	on offer
 		conversation
 			`On the descent down into the crater, the great shimmering spire at the center of it all casts an intense glare in all directions. The beautiful sight of the city surrounding the spire puts you in awe, the buildings are all well maintained, with ease of access by air, or ground. The swarming layers of hover vehicles above it all are incredible, they must run autonomously as they all traverse the airspace fluidly and with very little room for error.`
@@ -29,20 +26,20 @@ mission "abenFirstContact"
 					accept
 				`	"I'm not sure I can do business with you."`
 					decline
-
+	source
+		planet "Nis"
 #	Compatibility 
-
 mission "alphaSurveillanceDPatch"
-	invisible
-	source "Alta Hai"
 	destination "Avalon"
-	to offer
-		or
-			has "Wanderers: Alpha Surveillance C: done"
-			has "Wanderers: Alpha Surveillance C (Naughty): done"
+	invisible
 	on enter "Ahaw On,za"
 		dialog `Elias falls silent momentarily after fiddling with the tracker. "Nothing here. They must have skipped this system, try further east," he says. Not a great start.`
 	on enter "Dzee dzee-Bon,da"
 		dialog `"Absolutely nothing, it's a dead end down here," Elias looks frustrated, "We should have tried the northern systems."`
+	source "Alta Hai"
 	to fail
 		has "Wanderers: Alpha Surveillance D: done"
+	to offer
+		or
+			has "Wanderers: Alpha Surveillance C (Naughty): done"
+			has "Wanderers: Alpha Surveillance C: done"

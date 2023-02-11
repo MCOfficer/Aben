@@ -1,16 +1,14 @@
 #	Aben home cluster
-
 system "Ahaw On,za"
-	pos 137 -622
+	asteroids "large metal" 21 7
+	fleet "Unfettered Raid" 6000
 	government "Uninhabited"
 	link "Dzee dzee-Bon,da"
 	link "Ko,gok"
 	link "Pak.zin Skwa"
-	asteroids "large metal" 21 7
 	minables "silicon" 50 3
 	minables "silver" 19 3
 	minables "uranium" 24 2
-	fleet "Unfettered Raid" 6000
 	object
 		sprite "star/g5"
 		period 10
@@ -42,31 +40,21 @@ system "Ahaw On,za"
 			sprite "planet/miranda"
 			distance 631
 			period 78
+	pos 137 -622
 system "Dzee dzee-Bon,da"
-	pos 130 -564
-	government "Aben"
-	link "Ahaw On,za"
-	link "Ko,gok"
-	link "Pak.zin Skwa"
 	asteroids "large metal" 24 3
 	asteroids "large rock" 12 3
 	asteroids "medium metal" 5 2
 	asteroids "medium rock" 45 3
 	asteroids "small metal" 11 3
+	fleet "Unfettered Raid" 6000
+	government "Aben"
+	link "Ahaw On,za"
+	link "Ko,gok"
+	link "Pak.zin Skwa"
 	minables "aluminum" 1 3
 	minables "copper" 3 3
 	minables "lead" 9 3
-	trade "Food" 378
-	trade "Clothing" 212
-	trade "Metal" 390
-	trade "Plastic" 254
-	trade "Equipment" 521
-	trade "Medical" 445
-	trade "Industrial" 735
-	trade "Electronics" 892
-	trade "Heavy Metals" 811
-	trade "Luxury Goods" 1031
-	fleet "Unfettered Raid" 6000
 	object
 		sprite "star/f5"
 		period 10
@@ -106,38 +94,38 @@ system "Dzee dzee-Bon,da"
 			sprite "planet/ice0"
 			distance 367
 			period 24
+	pos 130 -564
+	trade "Clothing" 212
+	trade "Electronics" 892
+	trade "Equipment" 521
+	trade "Food" 378
+	trade "Heavy Metals" 811
+	trade "Industrial" 735
+	trade "Luxury Goods" 1031
+	trade "Medical" 445
+	trade "Metal" 390
+	trade "Plastic" 254
 planet "Nis"
-	landscape "land/forest0"
 	description `Eerily, there are no winged creatures amongst the skies and few land-roaming animals. Those animals that do walk the land however are large, lumbering beasts that easily dwarf small buildings. The most dominant species noticeably resemble old earth humans, they boast a very large build and move cautiously in groups when in the wilderness`
 	description `These humanesque creatures appear to have received aid as their technology is far beyond what they might have achieved otherwise. They prove quite formidable in the field of infrastructural and agricultural planning, perhaps they have been aided in that respect also, the various towns and villages appear to have stood for many centuries.`
+	landscape "land/forest0"
 	spaceport `The spaceport, located in the very center of a deep crater, shoots out of the ground like a glimmering silver spire. Surrounding the spire are densely populated residential and industrial sectors. The lower airspace of the city and lower levels of the spire are utilized for use by some form of flight-capable vehicle, presumably for transit by the wealthy.`
 	spaceport `It appears as though only the very top regions of the spire are intended for foreigners to land, however, there are docking bays located at various points around each docking level. Apparently only the most fortunate of Aben ever make it to the top of the spire, it's regarded as the highest honor to be of the few individuals to greet visiting species.`
 system "Ko,gok"
-	pos 169 -552
-	government "Aben"
-	link "Ahaw On,za"
-	link "Dzee dzee-Bon,da"
-	link "M,ska gwe,Demoos"
 	asteroids "large metal" 8 2
 	asteroids "large rock" 16 4
 	asteroids "medium metal" 109 4
 	asteroids "medium rock" 12 1
 	asteroids "small metal" 96 2
 	asteroids "small rock" 60 2
+	fleet "Unfettered Raid" 9000
+	government "Aben"
+	link "Ahaw On,za"
+	link "Dzee dzee-Bon,da"
+	link "M,ska gwe,Demoos"
 	minables "iron" 1 2
 	minables "lead" 1 2
 	minables "platinum" 4 3
-	trade "Food" 568
-	trade "Clothing" 224
-	trade "Metal" 410
-	trade "Plastic" 311
-	trade "Equipment" 561
-	trade "Medical" 515
-	trade "Industrial" 759
-	trade "Electronics" 922
-	trade "Heavy Metals" 811
-	trade "Luxury Goods" 1031
-	fleet "Unfettered Raid" 9000
 	object
 		sprite "star/g5"
 		period 10
@@ -169,26 +157,36 @@ system "Ko,gok"
 			sprite "planet/rock3"
 			distance 519
 			period 38
+	pos 169 -552
+	trade "Clothing" 224
+	trade "Electronics" 922
+	trade "Equipment" 561
+	trade "Food" 568
+	trade "Heavy Metals" 811
+	trade "Industrial" 759
+	trade "Luxury Goods" 1031
+	trade "Medical" 515
+	trade "Metal" 410
+	trade "Plastic" 311
 planet "Pesek"
-	landscape "land/mountain2"
 	description `A lifeless rock with a very thin atmosphere, slightly smaller than the Aben homeworld Nis. Somehow the Aben have managed to travel and colonize here, how they hold the power of spaceflight at their stage of evolution is astounding, even with the advanced technology they have been provided.`
 	description `The colony's sole purpose on this planet appears to be the research and development of the advanced technology they are given. With many flashes of light and booming sounds from off-site locations along the surface of the planet, the feel for the intensity of research is very intense.`
+	landscape "land/mountain2"
 	spaceport `The spaceport contains all of two landing pads if it can even be called that, there is no area for pilots to gather and no shops in the local area, this is clearly meant only for supply deliveries to the colony.`
 	spaceport `A looped broadcast confirms that the facility is not open to visitors, there is nothing to be done here but wait and refuel.`
 system "M,ska gwe,Demoos"
-	pos 127 -516
-	government "Uninhabited"
-	link "Ko,gok"
-	link "Pak.zin Skwa"
-	link "Tso-nii"
 	asteroids "large metal" 1 2
 	asteroids "large rock" 70 2
 	asteroids "medium metal" 86 2
 	asteroids "medium rock" 7 2
 	asteroids "small rock" 24 1
+	fleet "Unfettered Raid" 9000
+	government "Uninhabited"
+	link "Ko,gok"
+	link "Pak.zin Skwa"
+	link "Tso-nii"
 	minables "iron" 16 14
 	minables "silver" 6 11
-	fleet "Unfettered Raid" 9000
 	object
 		sprite "star/g0"
 		distance 19
@@ -226,20 +224,20 @@ system "M,ska gwe,Demoos"
 			sprite "planet/lava0"
 			distance 536
 			period 36
+	pos 127 -516
 system "Pak.zin Skwa"
-	pos 78 -519
-	government "Uninhabited"
-	link "Ahaw On,za"
-	link "Dzee dzee-Bon,da"
-	link "M,ska gwe,Demoos"
-	link "Tso-nii"
 	asteroids "large metal" 2 3
 	asteroids "large rock" 1 5
 	asteroids "medium metal" 26 5
 	asteroids "small metal" 16 6
 	asteroids "small rock" 1 3
-	minables "silicon" 2 4
 	fleet "Unfettered Raid" 9000
+	government "Uninhabited"
+	link "Ahaw On,za"
+	link "Dzee dzee-Bon,da"
+	link "M,ska gwe,Demoos"
+	link "Tso-nii"
+	minables "silicon" 2 4
 	object
 		sprite "star/k5"
 		period 10
@@ -279,20 +277,20 @@ system "Pak.zin Skwa"
 			sprite "planet/europa"
 			distance 376
 			period 38
+	pos 78 -519
 system "Tso-nii"
-	pos 86 -467
-	government "Uninhabited"
-	link "M,ska gwe,Demoos"
-	link "Pak.zin Skwa"
 	asteroids "large metal" 5 7
 	asteroids "large rock" 19 3
 	asteroids "medium metal" 40 4
 	asteroids "medium rock" 18 4
 	asteroids "small metal" 14 7
 	asteroids "small rock" 4 3
+	fleet "Unfettered Raid" 10500
+	government "Uninhabited"
+	link "M,ska gwe,Demoos"
+	link "Pak.zin Skwa"
 	minables "lead" 21 6
 	minables "silicon" 45 6
-	fleet "Unfettered Raid" 10500
 	object
 		sprite "star/f5"
 		distance 22
@@ -330,3 +328,4 @@ system "Tso-nii"
 			sprite "planet/dust1"
 			distance 354
 			period 21
+	pos 86 -467
