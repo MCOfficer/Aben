@@ -1,7 +1,6 @@
 #	Aben home cluster
 system "Ahaw On,za"
 	asteroids "large metal" 21 7
-	fleet "Unfettered Raid" 6000
 	government "Uninhabited"
 	link "Dzee dzee-Bon,da"
 	link "Ko,gok"
@@ -47,7 +46,6 @@ system "Dzee dzee-Bon,da"
 	asteroids "medium metal" 5 2
 	asteroids "medium rock" 45 3
 	asteroids "small metal" 11 3
-	fleet "Unfettered Raid" 6000
 	government "Aben"
 	link "Ahaw On,za"
 	link "Ko,gok"
@@ -118,7 +116,6 @@ system "Ko,gok"
 	asteroids "medium rock" 12 1
 	asteroids "small metal" 96 2
 	asteroids "small rock" 60 2
-	fleet "Unfettered Raid" 9000
 	government "Aben"
 	link "Ahaw On,za"
 	link "Dzee dzee-Bon,da"
@@ -180,7 +177,6 @@ system "M,ska gwe,Demoos"
 	asteroids "medium metal" 86 2
 	asteroids "medium rock" 7 2
 	asteroids "small rock" 24 1
-	fleet "Unfettered Raid" 9000
 	government "Uninhabited"
 	link "Ko,gok"
 	link "Pak.zin Skwa"
@@ -231,7 +227,6 @@ system "Pak.zin Skwa"
 	asteroids "medium metal" 26 5
 	asteroids "small metal" 16 6
 	asteroids "small rock" 1 3
-	fleet "Unfettered Raid" 9000
 	government "Uninhabited"
 	link "Ahaw On,za"
 	link "Dzee dzee-Bon,da"
@@ -285,7 +280,6 @@ system "Tso-nii"
 	asteroids "medium rock" 18 4
 	asteroids "small metal" 14 7
 	asteroids "small rock" 4 3
-	fleet "Unfettered Raid" 10500
 	government "Uninhabited"
 	link "M,ska gwe,Demoos"
 	link "Pak.zin Skwa"
