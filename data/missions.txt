@@ -1,8 +1,11 @@
 #	Introduction
 mission "abenFirstContact"
+	description "You've located in new lands a great city adorned by a towering spire, they may have work they need help in carrying out."
 	landing
+	name "Formal Introductions"
 	on offer
 		event "abenInvolvement" 4
+		event "abenInvolvementFalse" 8
 		conversation
 			`On the descent down into a large sprawling crater, a great shimmering spire at the center of a breathtaking city casts an intense glare in all directions. The beautiful sight of the city surrounding the spire puts you in awe, the buildings seem well-maintained and have ease of access by air, or ground. The swarming layers of hover vehicles above it all are incredible, they must run autonomously as they all traverse the airspace fluidly and with very little room for error.`
 			`	Near the pinnacle of the spire, which tapers off into a gentle slope, lies an unexpectedly large opening with flashing strips marking landing areas within the hanger. Upon landing your ship within, a party of four approaches you shortly after you disembark, they appear to be mostly human-like figures, only unclothed. On approach, it's clear that they possess no obvious reproductive organs, bear no hair across their bodies, and are missing noses. The relief you feel from being confronted by figures with a similar physicality is almost entirely shaken by the striking differences in their appearance.`
@@ -24,15 +27,35 @@ mission "abenFirstContact"
 			`	"My name is Captain <last>, I led the forces of my kind against the invasive Pug and together drove them away. I'm just an explorer now, but I once pledged allegiance and fulfilled my duty to a smaller part of the whole of my kind."`
 			label "named"
 			`	Saed looks pleased, although the expression feels muted and askew due to their lack of a nose, "I am happy to meet your acquaintance <last>. If you too would like to assist us you can inquire in an amount of 8 of your standard day cycles, we are unfortunate to be busy at this time."`
-				decline
+				accept
 			label "involved"
 			`	Expressions are somewhat muted on the Aben it seems, you never considered how much expression is conveyed through the movements in the nose. You can pick up an inkling of a surprise after your offer to help, "Gracious visitor, you would be welcome. We are however busy for a time, you can return at any time after an amount of 4 of your standard day cycles are passed."`
-				decline
+				accept
 	source
 		planet "Nis"
 	to complete
-		has "abenInvolvement"
+		or
+			has "abenLogisticsRegister: offered"
+			has "event: abenInvolvementFalse"
 event "abenInvolvement"
+event "abenInvolvementFalse"
+mission "abenLogisticsRegister"
+	description "Saed has introduced you to their logistics operations and has allowed you to take out contracts under their direction. (You can access contracts using the job board.)"
+	job
+	name "Logistics Register"
+	on accept
+		conversation
+			`Landing in the spacious hanger as you have before still feels as new an experience. The cavernous hanger, as empty and immaculate as any ventured before, is isolating; the entire structure you stand in now feels newly established, though you do not know truly how long the Aben, or this structure, has persisted.`
+			`	Without so long to wait, you find yourself once again to face with the spokesperson and his scribe. "Are you here to participate in our acquisitions? I will personally court you in the proceeding registering."`
+			`	"I am, Saed. Anything I can do to help."`
+			`	A short journey ensues out of the hanger, just a floor below by elevator is another spacious room, a warehouse of a sort. The vast open-plan display of equipment both known and unknown to you along the floors lends credence to the entire operation. You feel as if a machine of unseen magnitude has just revealed the cogs of its mechanisms, gearing for some grandiose purpose.`
+			`	After a select few tours of their operations on various sorts of equipment, both space-borne and earth-bound, you are guided through several trials in the procedure. A deceptively long process leaves you picking up the pieces well after you decompress in your ship, though the actual necessities of their operation aren't much more than some courier work over long distances.`
+			`	(You can access contracts using the job board.)`
+				decline
+	source
+		planet "Nis"
+	to offer
+		has "event: abenInvolvement"
 #	Compatibility 
 mission "alphaSurveillanceDPatch"
 	destination "Avalon"
