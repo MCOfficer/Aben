@@ -56,6 +56,24 @@ mission "abenLogisticsRegister"
 		planet "Nis"
 	to offer
 		has "event: abenInvolvement"
+mission "abenContract-JD"
+	description "Jump Drives are required; sourced only from sufficiently advanced species, hostility unavoidable. Do not undertake hostile action against those in possession."
+	job
+	name "Jump Drive Acquisitions"
+	on accept
+		conversation
+			`As you were guided in registration, you access a device you were granted to find a suitable contract. There are some thorough dossiers of exotic technology and other contracts without detail, but there are many.`
+			`	Saed appears in the device as a projection, as the box turns translucent. The contract as described personally by Saed is quite simple; a Jump Drive has near only been reported in possession of a species with very advanced technological achievement, and hostile action is strongly discouraged. As there are limited options, no direction can be provided, however, cases of individual ownership are not unknown.`
+			`	There is no expectation of deadline.`
+	on complete
+		outfit "Jump Drive" -1
+	repeat
+	source
+		planet "Nis"
+	to complete
+		has "outfit (cargo): Jump Drive"
+	to offer
+		has "abenLogisticsRegister: offered"
 #	Compatibility 
 mission "alphaSurveillanceDPatch"
 	destination "Avalon"
