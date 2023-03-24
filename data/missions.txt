@@ -74,6 +74,89 @@ mission "abenContract-JD"
 		has "outfit (cargo): Jump Drive"
 	to offer
 		has "abenLogisticsRegister: offered"
+mission "JDSourceKorath"
+	boarding
+	destination "Nis"
+	invisible
+	source
+		government "Korath"
+mission "JDSourcePug"
+	boarding
+	destination "Nis"
+	invisible
+	source
+		government "Pug" "Pug (Wanderer)"
+mission "JDSourceQuarg"
+	boarding
+	destination "Nis"
+	invisible
+	source
+		government "Quarg"
+mission "abenJDQuestions"
+	landing
+	on offer
+		conversation
+			`This time when searching for available contracts, you are cut short by a blaring announcement coming from somewhere within the hanger. It's not a surprise that you never noticed anything resembling a loudspeaker, but you are surprised it's so noticeable within the cockpit of your ship.`
+			`	It's a request for you, specifically, to depart your ship and to accompany escorts out of the hanger. The voice from the announcement sounds like Saed, your regular correspondent within the Aben. Sure enough, the announcement ends with signage from Saed, which sounds incredibly out of place in a verbal context.`
+			`	You exit your ship and are instantly set face-to-face with two armored guards, much like your very first visit to Nis. You've never engaged anyone other than Saed before, but the guards seem interested; "<last>, we will escort you out, as Saed instructs us."`
+			choice
+				`	"Alright, let's go."`
+					goto "saed"
+				`	"What is this about?"`
+			`	"You've been listed as a priority for questioning, nothing heinous, but this is required nonetheless. You have offered us on many occasions highly sought-after services, this may be related."`
+			label "saed"
+			`	Much like the underfloor workshop, hiding so close to an otherwise isolated hanger, your escorts only lead you a short distance to a small room with a large console central to it. Saed enters immediately after your party approaches the console, your two escorts are soon after dismissed.`
+			`	"Hello again <last>, I'm sorry for taking time away from you but I feel it necessary to find the source of your generosity. The chase is that you've supplied us with an unexpected number of our requested Jump Drives, it would be helpful to us to understand your source."`
+			choice
+				`	"I'm not sure I should talk about that."`
+					decline
+				`	(Tell him about the Korath.)`
+					to display
+						has "JDSourceKorath: offered"
+					goto "korath"
+				`	(Tell him about the Pug.)`
+					to display
+						and
+							has "JDSourcePug: offered"
+							has "main plot completed"
+					goto "pug"
+				`	(Tell him about the Quarg.)`
+					to display
+						has "JDSourceQuarg: offered"
+					goto "quarg"
+			label "korath"
+			`	"There is a region of the galaxy, close to the core, a great force of warmongering aliens live there. They invade my people often and are... careless with their raids; from what I've seen, they lose more than they get from us."`
+			`	The expression on Saed's face is inscrutable, "I understand, it was spoils of self-defense"`
+			branch "correction"
+				has "Discovered Korath Space: offered"
+				goto "wrapUp"
+			label "correction"
+			choice
+				`	(Stay silent.)`
+					goto "wrapUp"
+				`	(Correct him.)`
+			`	"Actually, Saed, once I was capable enough, I started taking their drives from their territory."`
+			`	As unknown as his feelings were before, it is now glaringly obvious that something in him disapproves. He explains his opposition but ultimately he acknowledges that your affairs are your own.`
+			label "wrapUp"
+			`	As he accepts your explanation for where you get so many Jump Drives, you two move on to discussing other subjects. You are invited to discuss the various oddities throughout the galaxy before he allows you to excuse yourself.`
+				decline
+			label "pug"
+			`	"I've fought the Pug for this technology, they meddle and they manipulate. I can overwhelm their ships to take their precious tools."`
+			`	The tension in the room rises with the deafening pause following your admission. Saed eventually lets his thoughts reach you, "Your callous disregard for them, why do you condemn them?"`
+			`	"The Pug interfered in a civil war my kind needed to resolve on our own, under a guise of presentiment. They presented themselves as an enemy to unite us against and it worked." Saed looks confused, perhaps earlier tempted to accept your offense at their interference. "Why do you still fight them, if they had helped you stop fighting yourselves?" he asks, somewhat disjointedly.`
+			`	"Because our wars are not their problem to fix, and we lost so many lives trying to take back the worlds they stole from us."`
+				goto "wrapUp"
+			label "quarg"
+			action
+				"reputation: Aben" = -1
+			`	"I've taken the drives from the Quarg- ", not a breath was taken before you were cut off by Saed, "That's enough, I won't hear about hostility towards the Quarg. We've been told about them from the visitors we've had and we consider them allies even without having met them. Still, your business is your own and we won't betray your trust in telling us, but we won't risk angering aliens that can't be fought away."`
+			`	(Your hostility with the Quarg isn't acceptable to the Aben, they will not offer you any more jobs.)`
+				decline
+	repeat
+	source
+		planet "Nis"
+	to offer
+		random < "abenContract-JD: done"
 #	Compatibility 
 mission "alphaSurveillanceDPatch"
 	destination "Avalon"
