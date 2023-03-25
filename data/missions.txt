@@ -79,7 +79,7 @@ mission "JDSourceKorath"
 	destination "Nis"
 	invisible
 	source
-		government "Korath"
+		government "Korath" "Korath (Civilian)"
 mission "JDSourcePug"
 	boarding
 	destination "Nis"
@@ -127,32 +127,21 @@ mission "abenJDQuestions"
 			label "korath"
 			`	"There is a region of the galaxy, close to the core, a great force of warmongering aliens live there. They invade my people often and are... careless with their raids; from what I've seen, they lose more than they get from us."`
 			`	The expression on Saed's face is inscrutable, "I understand, it was spoils of self-defense"`
-			branch "correction"
-				has "Discovered Korath Space: offered"
 				goto "wrapUp"
-			label "correction"
-			choice
-				`	(Stay silent.)`
-					goto "wrapUp"
-				`	(Correct him.)`
-			`	"Actually, Saed, once I was capable enough, I started taking their drives from their territory."`
-			`	As unknown as his feelings were before, it is now glaringly obvious that something in him disapproves. He explains his opposition but ultimately he acknowledges that your affairs are your own.`
-			label "wrapUp"
-			`	As he accepts your explanation for where you get so many Jump Drives, you two move on to discussing other subjects. You are invited to discuss the various oddities throughout the galaxy before he allows you to excuse yourself.`
-				decline
 			label "pug"
 			`	"I've fought the Pug for this technology, they meddle and they manipulate. I can overwhelm their ships to take their precious tools."`
 			`	The tension in the room rises with the deafening pause following your admission. Saed eventually lets his thoughts reach you, "Your callous disregard for them, why do you condemn them?"`
 			`	"The Pug interfered in a civil war my kind needed to resolve on our own, under a guise of presentiment. They presented themselves as an enemy to unite us against and it worked." Saed looks confused, perhaps earlier tempted to accept your offense at their interference. "Why do you still fight them, if they had helped you stop fighting yourselves?" he asks, somewhat disjointedly.`
 			`	"Because our wars are not their problem to fix, and we lost so many lives trying to take back the worlds they stole from us."`
-				goto "wrapUp"
+			label "wrapUp"
+			`	As he accepts your explanation for where you get so many Jump Drives, you two move on to discussing other subjects. You are invited to discuss the various oddities throughout the galaxy before he allows you to excuse yourself.`
+				decline
 			label "quarg"
 			action
 				"reputation: Aben" = -1
 			`	"I've taken the drives from the Quarg- ", not a breath was taken before you were cut off by Saed, "That's enough, I won't hear about hostility towards the Quarg. We've been told about them from the visitors we've had and we consider them allies even without having met them. Still, your business is your own and we won't betray your trust in telling us, but we won't risk angering aliens that can't be fought away."`
 			`	(Your hostility with the Quarg isn't acceptable to the Aben, they will not offer you any more jobs.)`
 				decline
-	repeat
 	source
 		planet "Nis"
 	to offer
