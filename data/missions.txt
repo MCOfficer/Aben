@@ -109,6 +109,11 @@ mission "abenJDQuestions"
 			`	"Hello again <last>, I'm sorry for taking time away from you but I feel it necessary to find the source of your generosity. The chase is that you've supplied us with an unexpected number of our requested Jump Drives, it would be helpful to us to understand your source."`
 			choice
 				`	"I'm not sure I should talk about that."`
+					to display
+						and
+							not "JDSourceKorath: offered"
+							not "JDSourcePug: offered"
+							not "JDSourceQuarg: offered"
 					decline
 				`	(Tell him about the Korath.)`
 					to display
@@ -116,9 +121,7 @@ mission "abenJDQuestions"
 					goto "korath"
 				`	(Tell him about the Pug.)`
 					to display
-						and
-							has "JDSourcePug: offered"
-							has "main plot completed"
+						has "JDSourcePug: offered"
 					goto "pug"
 				`	(Tell him about the Quarg.)`
 					to display
@@ -129,6 +132,8 @@ mission "abenJDQuestions"
 			`	The expression on Saed's face is inscrutable, "I understand, it was spoils of self-defense"`
 				goto "wrapUp"
 			label "pug"
+			action
+				event "abenPugColony" 30
 			`	"I've fought the Pug for this technology, they meddle and they manipulate. I can overwhelm their ships to take their precious tools."`
 			`	The tension in the room rises with the deafening pause following your admission. Saed eventually lets his thoughts reach you, "Your callous disregard for them, why do you condemn them?"`
 			`	"The Pug interfered in a civil war my kind needed to resolve on our own, under a guise of presentiment. They presented themselves as an enemy to unite us against and it worked." Saed looks confused, perhaps earlier tempted to accept your offense at their interference. "Why do you still fight them, if they had helped you stop fighting yourselves?" he asks, somewhat disjointedly.`
@@ -146,6 +151,13 @@ mission "abenJDQuestions"
 		planet "Nis"
 	to offer
 		random < "abenContract-JD: done"
+event "abenPugColony"
+	planet "Pesek"
+		description `A previously lifeless rock, now inhabited by the Pug to keep a close eye on the Aben. The Aben seem none too bothered by this, even jubilant that they have such direct relations to a foreign government.`
+		description `	Now miraculously, the landscape is entirely covered by an almost fluid-looking metallic sheen, curved snake-like spires complementing the otherwise barren scene of the metallic tubing between hills and through valleys.`
+		spaceport `The Pug on this planet seem none too eager to engage in conversation, not unlike their usual stance towards outsiders. Their demeanor is somewhat less aggressive than the Pug you've interacted with on other worlds, though their propensity to shut out foreigners shows through still.`
+	system "Ko,gok"
+		government "Pug (Aben)"
 #	Compatibility 
 mission "alphaSurveillanceDPatch"
 	destination "Avalon"

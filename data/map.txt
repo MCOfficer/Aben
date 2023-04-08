@@ -166,11 +166,8 @@ system "Ko,gok"
 	trade "Metal" 410
 	trade "Plastic" 311
 planet "Pesek"
-	description `A lifeless rock with a very thin atmosphere, slightly smaller than the Aben homeworld Nis. Somehow the Aben have managed to travel and colonize here, how they hold the power of spaceflight at their stage of evolution is astounding, even with the advanced technology they have been provided.`
-	description `The colony's sole purpose on this planet appears to be the research and development of the advanced technology they are given. With many flashes of light and booming sounds from off-site locations along the surface of the planet, the feel for the intensity of research is very intense.`
-	landscape "land/mountain2"
-	spaceport `The spaceport contains all of two landing pads if it can even be called that, there is no area for pilots to gather and no shops in the local area, this is clearly meant only for supply deliveries to the colony.`
-	spaceport `A looped broadcast confirms that the facility is not open to visitors, there is nothing to be done here but wait and refuel.`
+	description `A lifeless rock with little in the way of a breathable atmosphere, and no immediate signs of any past civilization. The barren landscape is sparsely spotted by sky-scraping stone spires of almost artisan curves and angles. The planet's mostly empty, flat landscape is suitable for landing any number of ships.`
+	landscape "land/mountain26"
 system "M,ska gwe,Demoos"
 	asteroids "large metal" 1 2
 	asteroids "large rock" 70 2
