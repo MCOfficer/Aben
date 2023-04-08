@@ -91,7 +91,7 @@ mission "JDSourceQuarg"
 	destination "Nis"
 	invisible
 	source
-		government "Quarg"
+		government "Quarg" "Quarg (Gegno)" "Quarg (Hai)" "Quarg (Kor Efret)"
 mission "abenJDQuestions"
 	landing
 	on offer
