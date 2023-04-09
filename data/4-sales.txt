@@ -1,4 +1,3 @@
-#	Sales
 outfitter "everything"
 	"P-26 Screen"
 	"P-72 Safeguard"
