@@ -1,21 +1,3 @@
-government "Aben"
-	"player reputation" 1
-	color .2 .5 .7
-government "Pug (Aben)"
-	"attitude toward"
-		"Drak" -.01
-		"Quarg" -.01
-		"Quarg (Hai)" -.01
-		"Quarg (Kor Efret)" -.01
-		"Quarg (Gegno)" -.01
-	"display name" "Pug"
-	"friendly hail" "friendly pug"
-	"friendly disabled hail" "friendly disabled pug"
-	"hostile hail" "hostile pug"
-	"hostile disabled hail" "hostile pug"
-	"player reputation" 1
-	color "governments: Pug"
-#	Aben cluster
 system "Ahaw On,za"
 	asteroids "large metal" 21 7
 	government "Uninhabited"
@@ -120,12 +102,6 @@ system "Dzee dzee-Bon,da"
 	trade "Medical" 445
 	trade "Metal" 390
 	trade "Plastic" 254
-planet "Nis"
-	description `Eerily, there are no winged creatures amongst the skies and few land-roaming animals. Those animals that do walk the land however are large, lumbering beasts that easily dwarf small buildings. The most dominant species noticeably resemble old earth humans, they boast a very large build and move cautiously in groups when in the wilderness`
-	description `These humanesque creatures appear to have received aid as their technology is far beyond what they might have achieved otherwise. They prove quite formidable in the field of infrastructural and agricultural planning, perhaps they have been aided in that respect also, the various towns and villages appear to have stood for many centuries.`
-	landscape "land/forest0"
-	spaceport `The spaceport, located in the very center of a deep crater, shoots out of the ground like a glimmering silver spire. Surrounding the spire are densely populated residential and industrial sectors. The lower airspace of the city and lower levels of the spire are utilized for use by some form of flight-capable vehicle, presumably for transit by the wealthy.`
-	spaceport `It appears as though only the very top regions of the spire are intended for foreigners to land, however, there are docking bays located at various points around each docking level. Apparently only the most fortunate of Aben ever make it to the top of the spire, it's regarded as the highest honor to be of the few individuals to greet visiting species.`
 system "Ko,gok"
 	asteroids "large metal" 8 2
 	asteroids "large rock" 16 4
@@ -182,9 +158,6 @@ system "Ko,gok"
 	trade "Medical" 515
 	trade "Metal" 410
 	trade "Plastic" 311
-planet "Pesek"
-	description `A lifeless rock with little in the way of a breathable atmosphere, and no immediate signs of any past civilization. The barren landscape is sparsely spotted by sky-scraping stone spires of almost artisan curves and angles. The planet's mostly empty, flat landscape is suitable for landing any number of ships.`
-	landscape "land/mountain26"
 system "M,ska gwe,Demoos"
 	asteroids "large metal" 1 2
 	asteroids "large rock" 70 2
