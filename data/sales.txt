@@ -1,4 +1,6 @@
-outfitter "everything"
+#	Omnis
+#		Plugins
+outfitter "aben"
 	"P-26 Screen"
 	"P-72 Safeguard"
 	"E-18 Distributor"
