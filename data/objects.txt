@@ -7,11 +7,3 @@ planet "Nis"
 planet "Pesek"
 	description `A lifeless rock with little in the way of a breathable atmosphere, and no immediate signs of any past civilization. The barren landscape is sparsely spotted by sky-scraping stone spires of almost artisan curves and angles. The planet's mostly empty, flat landscape is suitable for landing any number of ships.`
 	landscape "land/mountain26"
-#	Omnis
-planet "Everything "
-	outfitter "aben"
-planet "Aben "
-	bribe 0
-	description ""
-	outfitter "aben"
-	spaceport ""

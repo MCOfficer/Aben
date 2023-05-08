@@ -310,9 +310,3 @@ system "Tso-nii"
 			period 21
 			sprite "planet/dust1"
 	pos 86 -467
-#	Override
-system "Omnis"
-	add object "Aben "
-		distance 2400
-		offset 10
-		sprite "asteroid/yottrite/spin"
