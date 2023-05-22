@@ -1,5 +1,9 @@
-#	Map
-#		New
+#	Map: Main
+system "Hai "
+	add link "Aben "
+planet "Everything "
+	outfitter "aben"
+#	Map: Plugin
 system "Aben "
 	"jump range" 3000
 	government "Plugin"
@@ -12,12 +16,6 @@ planet "  Aben"
 	description ""
 	outfitter "aben"
 	spaceport ""
-#	Map
-#		Override
-system "Hai "
-	add link "Aben "
-planet "Everything "
-	outfitter "aben"
 #	Sales
 outfitter "aben"
 	"P-26 Screen"
